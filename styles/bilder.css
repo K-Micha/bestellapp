@@ -1,0 +1,25 @@
+.hero_img{
+    width: 100%;
+    height: 200px;
+    object-position: center;
+    object-fit: cover;
+}
+.logo_wrapper{
+    position: absolute;
+    place-self: center;
+}
+.logo{
+    height: 120px;
+    border-radius: 50%;
+    border: 1px solid gray;
+}
+.app_logo{
+    height: 48px;
+}
+.hight_img{
+    height: 110px !important;
+    box-shadow: -3px 1px 4px 1px black;
+}
+.main_dishes{
+        object-position: 10% 75% !important;
+}

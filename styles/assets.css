@@ -1,0 +1,96 @@
+/* arrow */
+
+.arrow {
+    color: #FF8000;
+    font-weight: bold;
+    font-size: 23px;
+    padding-right: 8px;
+
+}
+
+/* content and Basket */
+
+.main_content {
+    width: calc(100% - 300px);
+    padding: 16px;
+
+}
+
+.basket {
+    width: 300px;
+    flex-grow: 1;
+    padding: 16px;
+    position: sticky;
+    flex-grow: 1;
+    padding: 16px;
+}
+
+
+.content {
+    display: flex;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.main_content {
+    width: calc(100% - 300px);
+    gap: 2px;
+    padding: 2px;
+    flex-grow: 1;
+}
+
+
+/* off-screen-menu*/
+
+
+.ham_menu {
+    background-color: #FF8000;
+    width: 40px;
+    margin-left: auto;
+    position: relative;
+    padding: 10px 12px;
+    transition: opacity 125ms ease-out;
+    padding: 18px;
+    border: 0;
+    cursor: pointer;
+}
+
+.ham_menu span {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 125ms ease;
+}
+
+
+
+.ham_menu span:nth-child(1) {
+    top: 25%;
+}
+
+.ham_menu span:nth-child(3) {
+    top: 75%;
+}
+
+/* Aktivierter Zustand */
+
+
+.ham_menu.active span:nth-child(1) {
+    transform: rotate(40deg) translate(15px, 10px);
+}
+
+.ham_menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.ham_menu.active span:nth-child(3) {
+    transform: rotate(320deg) translate(8px, -5px);
+}

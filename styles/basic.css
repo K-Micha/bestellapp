@@ -1,0 +1,26 @@
+* {
+    color: white;
+    box-sizing: border-box;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Raleway", sans-serif;
+    ;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 10px;
+    border: 1px solid #0a193c;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    border: 2px solide;
+
+}
+span,p,a{
+    color: black;
+}
+h1,h2,h3{
+    color: black;
+}
